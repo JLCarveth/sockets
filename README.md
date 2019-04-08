@@ -8,5 +8,4 @@ This is a collection of Client / Server programs made using the
 
 **Planned**:
 - Chat Server
-- Broadcast Server
 - Simple Game Server (using gridlib)
