@@ -13,7 +13,6 @@ import javax.swing.JOptionPane;
 import javax.swing.JTextField;
 
 import javax.swing.JTextArea;
-import javax.swing.JPanel;
 import java.awt.BorderLayout;
 
 public class ChatClient {
