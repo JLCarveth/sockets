@@ -35,15 +35,15 @@ public class VersionServer implements Runnable {
     }
 
     /**
-     * Private function that creates
+     * Private function that creates the server socket.
      */
     private void openServerSocket () {
         try {
             this.isStopped = false;
             this.serverSocket = new ServerSocket(port);
         } catch (IOException e) {
-            System.out.println("Cannot open server on port " + port);
-            System.exit(0);
+            System.err.println("Cannot open server on port " + port);
+            System.exit(1);
         }
     }
 
