@@ -29,7 +29,7 @@ public class Worker implements Runnable {
         try (
             PrintWriter out = new PrintWriter(endpoint.getOutputStream(), true);
          ){
-             out.println(data);
+            out.println(data);
          } catch (IOException e) {
             System.out.println("Error communicating with the client." + e.getMessage());
         }
